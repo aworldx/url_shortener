@@ -11,7 +11,7 @@ module Stats
       end
 
       def clicks_count
-        RedisService.read(counter_key)
+        RedisService.read(counter_key).to_i
       end
 
       def url

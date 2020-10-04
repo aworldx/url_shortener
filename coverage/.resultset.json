@@ -4,6 +4,8 @@
       "/url_shortener/config/environment.rb": {
         "lines": [
           null,
+          null,
+          null,
           1,
           null,
           null,
@@ -12,6 +14,8 @@
       },
       "/url_shortener/config/application.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -56,6 +60,8 @@
       },
       "/url_shortener/config/boot.rb": {
         "lines": [
+          null,
+          null,
           1,
           null,
           1,
@@ -64,6 +70,8 @@
       },
       "/url_shortener/config/environments/test.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -124,11 +132,13 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
       "/url_shortener/config/initializers/backtrace_silencers.rb": {
         "lines": [
+          null,
           null,
           null,
           null,
@@ -155,11 +165,14 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
       "/url_shortener/config/initializers/filter_parameter_logging.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -183,6 +196,7 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
@@ -191,11 +205,14 @@
           null,
           null,
           null,
+          null,
           null
         ]
       },
       "/url_shortener/config/initializers/sidekiq.rb": {
         "lines": [
+          null,
+          null,
           1,
           0,
           null,
@@ -207,6 +224,8 @@
       },
       "/url_shortener/config/initializers/wrap_parameters.rb": {
         "lines": [
+          null,
+          null,
           null,
           null,
           null,
@@ -225,6 +244,8 @@
       },
       "/url_shortener/config/routes.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           null,
@@ -241,16 +262,24 @@
       },
       "/url_shortener/app/controllers/api/v1/stats_controller.rb": {
         "lines": [
+          null,
+          null,
+          1,
+          1,
           1,
           1,
           3,
           3,
+          null,
+          null,
           null,
           null
         ]
       },
       "/url_shortener/app/controllers/application_controller.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           null
@@ -258,6 +287,8 @@
       },
       "/url_shortener/app/controllers/concerns/response_by_use_case.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           9,
@@ -275,6 +306,10 @@
       },
       "/url_shortener/app/controllers/api/v1/urls_controller.rb": {
         "lines": [
+          null,
+          null,
+          1,
+          1,
           1,
           1,
           null,
@@ -286,12 +321,17 @@
           1,
           3,
           3,
+          null,
+          null,
           null,
           null
         ]
       },
       "/url_shortener/app/services/stats/dispatcher.rb": {
         "lines": [
+          null,
+          null,
+          1,
           1,
           1,
           1,
@@ -318,6 +358,7 @@
           1,
           null,
           1,
+          null,
           null,
           null,
           null
@@ -325,11 +366,12 @@
       },
       "/url_shortener/app/services/base_service.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           1,
-          147,
-          147,
+          151,
           null,
           null,
           null,
@@ -340,13 +382,13 @@
           1,
           null,
           1,
-          147,
-          147,
+          151,
+          151,
           null,
           null,
           1,
-          147,
-          147,
+          151,
+          151,
           null,
           null,
           1,
@@ -366,14 +408,18 @@
           1,
           null,
           1,
-          17,
-          17,
+          15,
+          15,
           null,
           null
         ]
       },
       "/url_shortener/app/services/stats/store/db_store.rb": {
         "lines": [
+          null,
+          null,
+          1,
+          1,
           1,
           1,
           null,
@@ -392,77 +438,82 @@
           null,
           1,
           0,
+          null,
+          null,
           null,
           null
         ]
       },
       "/url_shortener/app/services/stats/store/base_store.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          6,
+          6,
+          null,
+          null,
+          1,
+          6,
+          null,
+          4,
+          null,
+          null,
           1,
           null,
           1,
           2,
-          2,
           null,
           null,
-          1,
-          2,
-          null,
-          0,
-          null,
-          null,
-          1,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
           null,
           null
         ]
       },
       "/url_shortener/app/services/stats/store/redis_store.rb": {
         "lines": [
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
           null,
           null,
           1,
-          0,
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
           null,
           null,
           1,
-          0,
+          2,
           null,
           null,
           1,
-          0,
+          4,
           null,
           null,
           1,
-          0,
+          2,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null,
           null,
           null
         ]
       },
       "/url_shortener/app/services/urls/creator.rb": {
         "lines": [
+          null,
+          null,
+          1,
           1,
           1,
           1,
@@ -500,11 +551,15 @@
           1,
           null,
           null,
+          null,
           null
         ]
       },
       "/url_shortener/app/services/urls/encryptor.rb": {
         "lines": [
+          null,
+          null,
+          1,
           1,
           1,
           1,
@@ -518,11 +573,16 @@
           null,
           107,
           null,
+          null,
           null
         ]
       },
       "/url_shortener/app/services/urls/store/db_store.rb": {
         "lines": [
+          null,
+          null,
+          1,
+          1,
           1,
           1,
           1,
@@ -537,12 +597,18 @@
           7,
           null,
           1,
+          null,
+          null,
           null,
           null
         ]
       },
       "/url_shortener/app/services/urls/store/redis_store.rb": {
         "lines": [
+          null,
+          null,
+          1,
+          1,
           1,
           1,
           1,
@@ -554,16 +620,59 @@
           null,
           1,
           7,
-          6,
+          5,
           null,
+          4,
+          4,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/url_shortener/app/services/redis_service.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
           2,
-          2,
+          null,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          7,
+          null,
+          null,
+          1,
+          16,
+          null,
+          null,
+          1,
+          35,
+          null,
+          null,
+          1,
+          64,
+          null,
           null,
           null
         ]
       },
       "/url_shortener/app/models/short_url.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           1,
@@ -572,6 +681,8 @@
       },
       "/url_shortener/app/models/application_record.rb": {
         "lines": [
+          null,
+          null,
           1,
           1,
           null
@@ -579,6 +690,9 @@
       },
       "/url_shortener/app/services/urls/sanitizer.rb": {
         "lines": [
+          null,
+          null,
+          1,
           1,
           1,
           null,
@@ -591,44 +705,12 @@
           1,
           7,
           7,
-          null,
-          null
-        ]
-      },
-      "/url_shortener/app/services/redis_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          0,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          7,
-          null,
-          null,
-          1,
-          11,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1601789193
+    "timestamp": 1601803436
   }
 }
