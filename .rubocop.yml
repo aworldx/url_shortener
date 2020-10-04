@@ -1,0 +1,25 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+
+Style/Documentation:
+  Enabled: false
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'config/environments/*.rb'
+    - 'db/schema.rb'
+    - 'bin/rake'
+    - 'bin/rails'
+    - 'bin/setup'
+    - 'bin/spring'
+
+#Metrics/AbcSize:
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Style/CommentAnnotation:
+  Enabled: false

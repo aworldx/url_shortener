@@ -1,0 +1,10 @@
+:concurrency: 1
+
+:queues:
+  - stats
+  - default
+
+:schedule:
+  persist_stats:
+    cron: '*/1 * * * *'
+    class: Stats::PersistWorker
