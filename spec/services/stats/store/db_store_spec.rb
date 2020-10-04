@@ -3,5 +3,6 @@
 require 'rails_helper'
 
 describe Stats::Store::DbStore do
-  # TODO:
+  let(:short_url) { 'http://short-url.com' }
+  let(:original_url) { 'http://short-url.com' }
 end

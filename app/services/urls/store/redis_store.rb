@@ -12,7 +12,7 @@ module Urls
       end
 
       def call
-        return fail!('empty url') if short_url.blank?
+        return fail!('empty url') if short_url.blank? || original_url.blank?
         return fail!('not uniq short url') if RedisService.read(short_url)
 
         RedisService.write(short_url, original_url)

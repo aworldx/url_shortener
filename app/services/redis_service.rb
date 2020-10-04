@@ -24,6 +24,10 @@ class RedisService
       redis.get(key)
     end
 
+    def clear
+      redis.flushall
+    end
+
     def redis
       @redis ||= Rails.env.test? ? MockRedis.new : Redis.new(url: Rails.configuration.redis_url)
     end
